@@ -1,5 +1,4 @@
 import Ember from 'ember';
-import layout from '../templates/components/summer-note';
 
 const {
   get,
@@ -12,8 +11,6 @@ const {
 } = Ember
 
 export default Component.extend({
-  layout,
-
   classNames: ['wysiwyg-editor'],
   btnSize: 'btn-xs',
   height: 120,
